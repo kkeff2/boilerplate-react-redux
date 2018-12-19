@@ -12,6 +12,6 @@ const withResponse = ResponseComponent => WrapperComponent => props => (
       : null}
     {...props}
   />
-);
+)
 
-export default withResponse;
+export default withResponse

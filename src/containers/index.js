@@ -1,1 +1,1 @@
-export Root from './Root/Root';
+export Root from './Root/Root'

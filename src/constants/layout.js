@@ -17,4 +17,4 @@ export default {
       listLabel: 'List label'
     }
   }
-};
+}

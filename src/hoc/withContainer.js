@@ -1,8 +1,8 @@
-import { compose } from 'redux';
-import withSomething from './withSomething';
-import withServiceCall from './withServiceCall';
-import withLoading from './withLoading';
-import withResponse from './withResponse';
+import { compose } from 'redux'
+import withSomething from './withSomething'
+import withServiceCall from './withServiceCall'
+import withLoading from './withLoading'
+import withResponse from './withResponse'
 
 const withContainer = ({LoadingComponent, ResponseComponent}) => WrapperComponent => {
   return compose(
@@ -10,7 +10,7 @@ const withContainer = ({LoadingComponent, ResponseComponent}) => WrapperComponen
     withServiceCall,
     withLoading(LoadingComponent),
     withResponse(ResponseComponent)
-  )(WrapperComponent);
-};
+  )(WrapperComponent)
+}
 
-export default withContainer;
+export default withContainer
